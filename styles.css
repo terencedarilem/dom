@@ -1,0 +1,107 @@
+/* Styles pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles pour l'en-tête */
+header {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Styles pour l'image dans l'en-tête */
+header img {
+    width: 40px;
+    vertical-align: middle;
+}
+
+/* Styles pour le conteneur principal */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour un élément dans le conteneur */
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Styles pour l'image dans un élément */
+.item img {
+    width: 80px;
+    margin-right: 20px;
+}
+
+/* Styles pour la quantité */
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+/* Styles pour les boutons */
+button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Styles pour le survol des boutons */
+button:hover {
+    background-color: #003366;
+}
+
+/* Styles pour le bouton de suppression */
+.remove {
+    background-color: #dc3545;
+}
+
+/* Styles pour le bouton "J'aime" */
+.like {
+    background-color: transparent;
+    border: none;
+}
+
+/* Styles pour l'icône "J'aime" */
+.like i {
+    color: #ccc;
+}
+
+/* Styles pour l'icône "J'aime" active */
+.like i.active {
+    color: #ff0000;
+}
+
+/* Styles pour le total */
+.total {
+    text-align: right;
+}
+
+/* Styles pour le pied de page */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
+
+/* Styles pour la boîte de biographie */
+.bio-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}

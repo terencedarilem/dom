@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panier interactif</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<link rel="stylesheet" href="styles.css"> <!-- Inclure le fichier CSS local -->
+</head>
+<body>
+<header>
+    <img src="https://img.freepik.com/vecteurs-premium/connectez-logo-du-bouton-lecture-connexion-lien-creation-logo-forme-triangle-cercle_7280-5271.jpg" alt="Cart Logo">
+    <h1>Mon Panier</h1>
+</header>
+<div class="container">
+    <div class="item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIqabaUSVVmn78JpNCQ8IW1zGA9neE9Pw6_A&usqp=CAU" alt="Phone">
+        <h3>Téléphone</h3>
+        <div class="quantity">
+            <button class="minus">-</button>
+            <span class="amount">1</span>
+            <button class="plus">+</button>
+        </div>
+        <button class="remove">Supprimer</button>
+        <button class="like"><i class="fas fa-heart text-danger"></i></button> <!-- Cœur rouge -->
+        <p class="price">$30</p>
+    </div>
+    <div class="item">
+        <img src="https://www.leparisien.fr/resizer/7miskBv4SfJRpcTJpM5Ia0sT9yE=/932x582/cloudfront-eu-central-1.images.arcpublishing.com/lpguideshopping/VRBOVOSWTSZKZYFA4M4TCFPUN4.jpg" alt="Tablet">
+        <h3>Tablette</h3>
+        <div class="quantity">
+            <button class="minus">-</button>
+            <span class="amount">1</span>
+            <button class="plus">+</button>
+        </div>
+        <button class="remove">Supprimer</button>
+        <button class="like"><i class="fas fa-heart text-danger"></i></button> <!-- Cœur rouge -->
+        <p class="price">$40</p>
+    </div>
+    <div class="item">
+        <img src="https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/65/04379/1.jpg?1444" alt="Montre">
+        <h3>Montre connectée</h3>
+        <div class="quantity">
+            <button class="minus">-</button>
+            <span class="amount">1</span>
+            <button class="plus">+</button>
+        </div>
+        <button class="remove">Supprimer</button>
+        <button class="like"><i class="fas fa-heart text-danger"></i></button> <!-- Cœur rouge -->
+        <p class="price">$50</p>
+    </div>
+    <!-- Ajoutez autant d'éléments d'article que nécessaire -->
+    <div class="total">
+        <h3>Total: <span id="totalAmount">$120</span></h3> <!-- Affichage du total -->
+    </div>
+</div>
+<footer>
+    <p>© 2021 Mon Panier. Tous droits réservés.</p>
+</footer>
+<script src="java.js"></script> <!-- Inclure le fichier JavaScript -->
+</body>
+</html>
